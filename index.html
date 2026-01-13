@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gisele Paladine | Corretora de Imóveis em São Carlos - Compra e Venda</title>
     <meta name="description" content="Encontre as melhores casas e condomínios em São Carlos com Gisele Paladine. 20 anos de experiência em compra e venda de imóveis de médio e alto padrão.">
-    
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -22,21 +20,17 @@
         "addressRegion": "SP",
         "addressCountry": "BR"
       },
-      "telephone": "+5516997762508",
-      "url": "https://seudominio.com.br"
+      "telephone": "+5516997762508"
     }
     </script>
-
     <style>
         h1, h2, h3, .font-serif { font-family: 'Playfair Display', serif; }
-        body { font-family: 'Inter', sans-serif; }
+        body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
         .bg-navy { background-color: #0a192f; }
         .text-navy { color: #0a192f; }
-        .text-balance { text-wrap: balance; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-900 overflow-x-hidden">
-
     <header class="fixed w-full z-[100] bg-white/95 backdrop-blur-md border-b border-slate-100">
         <div class="container mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex flex-col">
@@ -46,57 +40,45 @@
             <nav class="hidden lg:flex space-x-6 text-sm font-semibold uppercase tracking-wider">
                 <a href="#inicio" class="hover:text-emerald-700 transition">Início</a>
                 <a href="#imoveis" class="hover:text-emerald-700 transition">Imóveis</a>
-                <a href="#vender" class="hover:text-emerald-700 transition">Venda seu Imóvel</a>
+                <a href="#vender" class="hover:text-emerald-700 transition">Vender</a>
                 <a href="#sobre" class="hover:text-emerald-700 transition">Sobre</a>
                 <a href="#blog" class="hover:text-emerald-700 transition">Dicas</a>
             </nav>
-            <div class="hidden md:block text-[10px] border px-2 py-1 rounded border-slate-300 font-bold text-slate-500 uppercase tracking-widest">
-                CRECI: [286943-F]
-            </div>
-            <button id="mobile-btn" class="lg:hidden text-2xl text-navy" aria-label="Abrir menu">
-                <i class="fas fa-bars"></i>
-            </button>
+            <div class="hidden md:block text-[10px] border px-2 py-1 rounded border-slate-300 font-bold text-slate-500 uppercase">CRECI: [PREENCHER]</div>
+            <button id="mobile-btn" class="lg:hidden text-2xl text-navy"><i class="fas fa-bars"></i></button>
         </div>
     </header>
 
     <div id="mobile-menu" class="fixed inset-0 z-[110] bg-navy text-white p-8 transform translate-x-full transition-transform duration-300 lg:hidden text-center">
-        <button id="close-btn" class="absolute top-6 right-6 text-3xl" aria-label="Fechar menu">&times;</button>
-        <nav class="flex flex-col space-y-8 mt-12 text-xl font-bold uppercase italic tracking-widest">
+        <button id="close-btn" class="absolute top-6 right-6 text-3xl">&times;</button>
+        <nav class="flex flex-col space-y-8 mt-12 text-xl font-bold uppercase tracking-widest italic">
             <a href="#inicio" onclick="closeMenu()">Início</a>
             <a href="#imoveis" onclick="closeMenu()">Imóveis</a>
             <a href="#vender" onclick="closeMenu()">Venda seu Imóvel</a>
             <a href="#sobre" onclick="closeMenu()">Sobre</a>
             <a href="#blog" onclick="closeMenu()">Dicas</a>
-            <button onclick="toggleChat(); closeMenu();" class="text-emerald-400 uppercase italic">Atendimento</button>
+            <button onclick="toggleChat(); closeMenu();" class="text-emerald-400">Atendimento</button>
         </nav>
     </div>
 
     <section id="inicio" class="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden bg-slate-50 text-center lg:text-left">
-        <div class="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div class="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div class="z-10 order-2 lg:order-1">
-                <span class="text-emerald-700 font-bold tracking-[0.2em] uppercase text-[10px] md:text-sm mb-4 block italic leading-none">Especialista em São Carlos há 20 anos</span>
-                <h1 class="text-3xl md:text-6xl lg:text-7xl font-bold text-navy leading-tight mb-6 uppercase text-balance">
-                    Seu novo capítulo começa em um <span class="text-emerald-800 italic font-serif lowercase">lar perfeito.</span>
-                </h1>
-                <p class="text-sm md:text-xl text-slate-600 mb-8 md:mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed font-semibold italic">
-                    Curadoria exclusiva em São Carlos. Casas de médio padrão e condomínios fechados com total segurança jurídica.
-                </p>
+                <span class="text-emerald-700 font-bold tracking-[0.2em] uppercase text-[10px] md:text-sm mb-4 block italic">Especialista em São Carlos há 20 anos</span>
+                <h1 class="text-3xl md:text-6xl lg:text-7xl font-bold text-navy leading-tight mb-6 uppercase">Seu novo capítulo começa em um <span class="text-emerald-800 italic font-serif lowercase">lar perfeito.</span></h1>
+                <p class="text-sm md:text-xl text-slate-600 mb-8 max-w-lg mx-auto lg:mx-0 font-semibold italic">Curadoria exclusiva em São Carlos. Casas de médio padrão e condomínios fechados com total segurança jurídica.</p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                    <button onclick="toggleChat()" class="bg-emerald-700 text-white px-8 py-4 rounded-full font-bold text-base md:text-lg hover:bg-emerald-800 transition shadow-xl flex items-center justify-center gap-2 transform hover:scale-105">
-                        <i class="fab fa-whatsapp text-xl"></i> Agendar Visita
-                    </button>
-                    <a href="#imoveis" class="border-2 border-navy text-navy px-8 py-4 rounded-full font-bold text-center hover:bg-navy hover:text-white transition uppercase text-[10px] md:text-sm tracking-widest">
-                        Ver Catálogo
-                    </a>
+                    <button onclick="toggleChat()" class="bg-emerald-700 text-white px-8 py-4 rounded-full font-bold text-base md:text-lg hover:bg-emerald-800 transition shadow-xl flex items-center justify-center gap-2 transform hover:scale-105 italic"><i class="fab fa-whatsapp text-xl"></i> Agendar Visita</button>
+                    <a href="#imoveis" class="border-2 border-navy text-navy px-8 py-4 rounded-full font-bold text-center uppercase text-[10px] md:text-sm tracking-widest">Ver Catálogo</a>
                 </div>
             </div>
             <div class="relative order-1 lg:order-2 flex justify-center">
                 <div class="w-56 h-56 md:w-[450px] md:h-[550px] bg-slate-200 rounded-[2rem] overflow-hidden shadow-2xl relative border-4 md:border-8 border-white">
-                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover" alt="Gisele Paladine">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=70&w=800&auto=format&fit=crop" class="w-full h-full object-cover" alt="Gisele Paladine">
                 </div>
-                <div class="absolute -bottom-3 -right-3 md:-bottom-5 md:-right-5 lg:right-10 bg-white p-3 md:p-6 rounded-2xl shadow-2xl border border-slate-100">
+                <div class="absolute -bottom-3 -right-3 md:right-10 bg-white p-3 md:p-6 rounded-2xl shadow-2xl border border-slate-100 italic">
                     <p class="text-xl md:text-3xl font-bold text-emerald-700 leading-none">20 anos</p>
-                    <p class="text-[8px] md:text-[10px] font-bold uppercase tracking-widest text-slate-400 mt-1 italic">São Carlos</p>
+                    <p class="text-[8px] md:text-[10px] font-bold uppercase tracking-widest text-slate-400 mt-1">São Carlos</p>
                 </div>
             </div>
         </div>
@@ -104,298 +86,90 @@
 
     <section id="imoveis" class="py-16 md:py-20 bg-white text-navy">
         <div class="container mx-auto px-4">
-            <div class="flex flex-col md:flex-row justify-between items-center md:items-end mb-10 md:mb-12 gap-6 text-center md:text-left">
-                <div class="max-w-xl">
+            <div class="flex flex-col md:flex-row justify-between items-center md:items-end mb-10 gap-6 text-center md:text-left text-navy">
+                <div class="max-w-xl text-navy">
                     <h2 class="text-2xl md:text-5xl font-bold text-navy mb-4 italic uppercase leading-none">Oportunidades</h2>
                     <div class="w-16 h-1 bg-emerald-700 mb-4 mx-auto md:mx-0"></div>
-                    <p class="text-slate-500 text-sm md:text-base font-semibold italic">Curadoria em condomínios e bairros nobres.</p>
+                    <p class="text-slate-500 text-sm md:text-base font-semibold italic text-navy">Curadoria em condomínios e bairros nobres.</p>
                 </div>
-                <button onclick="toggleChat()" class="text-emerald-700 font-bold flex items-center gap-2 hover:underline uppercase text-[10px] md:text-xs tracking-widest">
-                    Ver todos no WhatsApp <i class="fas fa-arrow-right text-[10px]"></i>
-                </button>
+                <button onclick="toggleChat()" class="text-emerald-700 font-bold flex items-center gap-2 hover:underline uppercase text-[10px] md:text-xs tracking-widest text-navy">Ver todos no WhatsApp <i class="fas fa-arrow-right text-[10px]"></i></button>
             </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 text-left">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                 <div class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition duration-500">
-                    <div class="relative h-56 md:h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Residencial Damha">
-                        <span class="absolute top-4 left-4 bg-navy text-white text-[9px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Alto Padrão</span>
-                    </div>
+                    <div class="relative h-56 md:h-64 overflow-hidden"><img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?q=70&w=600&auto=format&fit=crop" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Imóvel"><span class="absolute top-4 left-4 bg-navy text-white text-[9px] font-bold px-3 py-1 rounded-full uppercase">Alto Padrão</span></div>
                     <div class="p-6">
                         <h4 class="text-lg md:text-xl font-bold text-navy mb-2 uppercase italic leading-none">Residencial Damha</h4>
-                        <p class="text-slate-500 text-[12px] md:text-sm mb-6 flex items-center gap-3 font-semibold italic">
-                            <span><i class="fas fa-bed text-emerald-700"></i> 4 Suítes</span>
-                            <span><i class="fas fa-car text-emerald-700"></i> 4 Vagas</span>
-                        </p>
-                        <div class="flex justify-between items-center border-t pt-4">
-                            <span class="text-emerald-700 font-bold text-base italic uppercase">Consulte</span>
-                            <button onclick="toggleChat()" class="text-navy font-bold text-[10px] uppercase tracking-widest underline">Detalhes</button>
-                        </div>
+                        <p class="text-slate-500 text-[12px] md:text-sm mb-6 flex items-center gap-3 font-semibold italic"><span><i class="fas fa-bed text-emerald-700"></i> 4 Suítes</span><span><i class="fas fa-car text-emerald-700"></i> 4 Vagas</span></p>
+                        <div class="flex justify-between items-center border-t pt-4 text-navy"><span class="text-emerald-700 font-bold text-base italic uppercase">Consulte</span><button onclick="toggleChat()" class="text-navy font-bold text-[10px] uppercase tracking-widest underline text-navy">Detalhes</button></div>
                     </div>
                 </div>
-                <div class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition duration-500">
-                    <div class="relative h-56 md:h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Vila Prado Premium">
-                        <span class="absolute top-4 left-4 bg-emerald-700 text-white text-[9px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Exclusividade</span>
-                    </div>
-                    <div class="p-6">
-                        <h4 class="text-lg md:text-xl font-bold text-navy mb-2 uppercase italic leading-none">Vila Prado Premium</h4>
-                        <p class="text-slate-500 text-[12px] md:text-sm mb-6 flex items-center gap-3 font-semibold italic">
-                            <span><i class="fas fa-bed text-emerald-700"></i> 3 Qts</span>
-                            <span><i class="fas fa-expand text-emerald-700"></i> 180m²</span>
-                        </p>
-                        <div class="flex justify-between items-center border-t pt-4">
-                            <span class="text-emerald-700 font-bold text-base italic uppercase">Consulte</span>
-                            <button onclick="toggleChat()" class="text-navy font-bold text-[10px] uppercase tracking-widest underline">Detalhes</button>
-                        </div>
-                    </div>
                 </div>
-                <div class="group bg-white rounded-3xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl transition duration-500">
-                    <div class="relative h-56 md:h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Excelente Localização">
-                        <span class="absolute top-4 left-4 bg-blue-500 text-white text-[9px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Oportunidade</span>
-                    </div>
-                    <div class="p-6">
-                        <h4 class="text-lg md:text-xl font-bold text-navy mb-2 uppercase italic leading-none text-balance">Oportunidade Faber</h4>
-                        <p class="text-slate-500 text-[12px] md:text-sm mb-6 flex items-center gap-3 font-semibold italic">
-                            <span><i class="fas fa-bed text-emerald-700"></i> 2 Qts</span>
-                            <span><i class="fas fa-check-circle text-emerald-700"></i> Pronto</span>
-                        </p>
-                        <div class="flex justify-between items-center border-t pt-4">
-                            <span class="text-emerald-700 font-bold text-base italic uppercase">Consulte</span>
-                            <button onclick="toggleChat()" class="text-navy font-bold text-[10px] uppercase tracking-widest underline">Detalhes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 
-    <section id="vender" class="py-16 md:py-20 bg-navy text-white relative overflow-hidden text-center md:text-left">
-        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-10 md:gap-12 relative z-10">
+    <section id="vender" class="py-16 md:py-20 bg-navy text-white relative overflow-hidden text-center md:text-left text-navy">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-10 relative z-10 text-white">
             <div class="md:w-1/2">
-                <h2 class="text-2xl md:text-5xl font-bold mb-6 italic leading-tight uppercase text-balance">Venda seu imóvel com rapidez</h2>
-                <p class="text-slate-400 text-sm md:text-lg mb-8 leading-relaxed font-semibold italic">Marketing estratégico para vender seu patrimônio pelo valor justo em São Carlos.</p>
-                <button onclick="toggleChat()" class="w-full md:w-auto bg-emerald-600 hover:bg-emerald-500 text-white px-8 py-4 rounded-full font-bold text-base md:text-lg inline-flex items-center justify-center gap-3 transition transform hover:scale-105 shadow-2xl">
-                    <i class="fas fa-home text-xl"></i> ANUNCIAR AGORA
-                </button>
+                <h2 class="text-2xl md:text-5xl font-bold mb-6 italic leading-tight uppercase text-white">Venda seu imóvel com rapidez</h2>
+                <p class="text-slate-400 text-sm md:text-lg mb-8 font-semibold italic">Marketing estratégico para vender seu patrimônio pelo valor justo em São Carlos.</p>
+                <button onclick="toggleChat()" class="w-full md:w-auto bg-emerald-600 hover:bg-emerald-500 text-white px-8 py-4 rounded-full font-bold text-base shadow-2xl transition transform hover:scale-105"><i class="fas fa-home text-xl"></i> ANUNCIAR AGORA</button>
             </div>
-            <div class="md:w-1/2 grid grid-cols-2 gap-3 md:gap-4 text-center">
-                <div class="bg-white/5 p-4 md:p-6 rounded-2xl border border-white/10">
-                    <i class="fas fa-camera text-2xl text-emerald-400 mb-2"></i>
-                    <p class="font-bold text-[8px] md:text-[10px] uppercase tracking-widest">Fotos Pro</p>
-                </div>
-                <div class="bg-white/5 p-4 md:p-6 rounded-2xl border border-white/10">
-                    <i class="fas fa-bullhorn text-2xl text-emerald-400 mb-2"></i>
-                    <p class="font-bold text-[8px] md:text-[10px] uppercase tracking-widest">Marketing</p>
-                </div>
-                <div class="bg-white/5 p-4 md:p-6 rounded-2xl border border-white/10">
-                    <i class="fas fa-handshake text-2xl text-emerald-400 mb-2"></i>
-                    <p class="font-bold text-[8px] md:text-[10px] uppercase tracking-widest">Jurídico</p>
-                </div>
-                <div class="bg-white/5 p-4 md:p-6 rounded-2xl border border-white/10">
-                    <i class="fas fa-map-marked-alt text-2xl text-emerald-400 mb-2"></i>
-                    <p class="font-bold text-[8px] md:text-[10px] uppercase tracking-widest">Foco Local</p>
-                </div>
+            <div class="md:w-1/2 grid grid-cols-2 gap-3 text-center">
+                <div class="bg-white/5 p-4 rounded-2xl border border-white/10 text-white"><i class="fas fa-camera text-2xl text-emerald-400 mb-2"></i><p class="font-bold text-[8px] uppercase tracking-widest">Fotos Pro</p></div>
+                <div class="bg-white/5 p-4 rounded-2xl border border-white/10 text-white"><i class="fas fa-bullhorn text-2xl text-emerald-400 mb-2"></i><p class="font-bold text-[8px] uppercase tracking-widest">Marketing</p></div>
             </div>
         </div>
     </section>
 
-    <section id="sobre" class="py-16 md:py-24 bg-white text-navy border-b border-slate-100">
-        <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
-            <div class="lg:w-1/2 order-2 lg:order-1 text-center md:text-left">
-                <h2 class="text-2xl md:text-5xl font-bold text-navy mb-8 italic uppercase tracking-tighter leading-tight">20 anos em São Carlos</h2>
-                <div class="space-y-6 text-slate-600 text-sm md:text-lg leading-relaxed font-semibold italic">
-                    <p>Há duas décadas, escolhi São Carlos para ser meu lar. Vi esta cidade crescer e hoje ajudo famílias a realizarem o sonho da casa própria.</p>
-                    <p>Minha missão é garantir transparência e segurança em cada detalhe do seu investimento.</p>
-                    <p class="font-bold italic text-emerald-700 uppercase tracking-widest text-[10px] md:text-sm underline">CRECI: [SEU NÚMERO AQUI] • Segurança Total</p>
-                </div>
+    <section id="sobre" class="py-16 md:py-24 bg-white text-navy border-b border-slate-100 text-navy">
+        <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12 text-navy">
+            <div class="lg:w-1/2 order-2 lg:order-1 text-center md:text-left text-navy">
+                <h2 class="text-2xl md:text-5xl font-bold text-navy mb-8 italic uppercase tracking-tighter text-navy">20 anos em São Carlos</h2>
+                <div class="space-y-6 text-slate-600 text-sm md:text-lg font-semibold italic text-navy"><p>Há duas décadas, escolhi São Carlos para ser meu lar. Vi esta cidade crescer e hoje ajudo famílias a realizarem o sonho da casa própria.</p><p>Minha missão é garantir transparência e segurança em cada detalhe do seu investimento.</p><p class="font-bold italic text-emerald-700 uppercase tracking-widest text-[10px] md:text-sm underline text-navy">CRECI: [SEU NÚMERO AQUI] • Segurança Total</p></div>
             </div>
-            <div class="lg:w-1/2 order-1 lg:order-2 flex justify-center">
-                <div class="relative inline-block w-full max-w-sm md:max-w-none">
-                    <img src="https://images.unsplash.com/photo-1582408921715-18e7806365c1?auto=format&fit=crop&q=80&w=800" class="rounded-[2.5rem] md:rounded-[4rem] shadow-2xl grayscale hover:grayscale-0 transition-all duration-700" alt="São Carlos">
-                    <div class="absolute -top-6 -left-6 bg-emerald-700 text-white p-6 rounded-full hidden lg:block text-center">
-                        <i class="fas fa-quote-left text-2xl opacity-50"></i>
-                    </div>
-                </div>
-            </div>
+            <div class="lg:w-1/2 order-1 lg:order-2 flex justify-center"><img src="https://images.unsplash.com/photo-1582408921715-18e7806365c1?q=70&w=800&auto=format&fit=crop" class="rounded-[2.5rem] md:rounded-[4rem] shadow-2xl grayscale hover:grayscale-0 transition duration-700" alt="São Carlos"></div>
         </div>
     </section>
 
-    <section id="blog" class="py-16 md:py-20 bg-slate-50 text-navy">
-        <div class="container mx-auto px-4">
-            <h2 class="text-2xl md:text-3xl font-bold text-center text-navy mb-10 md:mb-12 italic uppercase tracking-tighter leading-none">Artigos & Estratégia</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 text-left">
-                <article class="bg-white rounded-3xl p-6 md:p-8 border border-slate-100 shadow-sm italic transition hover:shadow-lg">
-                    <span class="text-emerald-700 font-bold text-[9px] uppercase tracking-widest mb-4 block italic underline">Investimento</span>
-                    <h4 class="text-base md:text-lg font-bold text-navy mb-4 leading-tight uppercase text-balance">Damha ou Faber? Qual o melhor retorno em São Carlos?</h4>
-                    <p class="text-xs text-slate-500 mb-6 leading-relaxed">Análise técnica sobre a valorização e liquidez dos principais condomínios fechados da região...</p>
-                    <a href="https://wa.me/5516997762508?text=Gisele, li seu artigo sobre Damha e Faber e gostaria de uma consultoria." class="text-navy font-bold text-[10px] uppercase underline underline-offset-4 tracking-widest hover:text-emerald-700">Ler matéria &rarr;</a>
-                </article>
-                <article class="bg-white rounded-3xl p-6 md:p-8 border border-slate-100 shadow-sm italic transition hover:shadow-lg">
-                    <span class="text-emerald-700 font-bold text-[9px] uppercase tracking-widest mb-4 block italic underline">Venda Rápida</span>
-                    <h4 class="text-base md:text-lg font-bold text-navy mb-4 leading-tight uppercase text-balance">Como preparar seu imóvel para vender em 45 dias.</h4>
-                    <p class="text-xs text-slate-500 mb-6 leading-relaxed">Pequenos detalhes estéticos e documentação blindada são segredos para uma venda sem burocracia...</p>
-                    <a href="https://wa.me/5516997762508?text=Gisele, li sobre venda rápida. Pode avaliar meu imóvel?" class="text-navy font-bold text-[10px] uppercase underline underline-offset-4 tracking-widest hover:text-emerald-700">Ler matéria &rarr;</a>
-                </article>
-                <article class="bg-white rounded-3xl p-6 md:p-8 border border-slate-100 shadow-sm italic transition hover:shadow-lg">
-                    <span class="text-emerald-700 font-bold text-[9px] uppercase tracking-widest mb-4 block italic underline">Bairros</span>
-                    <h4 class="text-base md:text-lg font-bold text-navy mb-4 leading-tight uppercase text-balance">Guia Vila Prado: Tradição e modernidade no coração de SC.</h4>
-                    <p class="text-xs text-slate-500 mb-6 leading-relaxed">Conheça os benefícios de morar no bairro mais tradicional de São Carlos hoje...</p>
-                    <a href="https://wa.me/5516997762508?text=Gisele, li o guia da Vila Prado. Tem opções de casas lá?" class="text-navy font-bold text-[10px] uppercase underline underline-offset-4 tracking-widest hover:text-emerald-700">Ler matéria &rarr;</a>
-                </article>
+    <footer id="contato" class="bg-navy text-white pt-16 pb-10 text-navy">
+        <div class="container mx-auto px-4 text-center md:text-left text-white">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-white/10 pb-12 mb-10 text-white">
+                <div class="text-white"><span class="text-xl md:text-2xl font-black uppercase italic text-white text-navy">Gisele Paladine</span><p class="mt-4 text-slate-400 text-[10px] italic underline underline-offset-8 decoration-emerald-500 uppercase font-bold text-white">CRECI: [PREENCHER]</p></div>
+                <div class="text-white"><h4 class="font-bold text-emerald-400 mb-6 uppercase tracking-widest text-[10px] italic underline underline-offset-8">Atendimento</h4><p class="text-xl md:text-2xl font-bold mb-2 text-white">(16) 99776-2508</p></div>
             </div>
-        </div>
-    </section>
-
-    <footer id="contato" class="bg-navy text-white pt-16 pb-10">
-        <div class="container mx-auto px-4 text-center md:text-left">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-white/10 pb-12 mb-10">
-                <div>
-                    <span class="text-xl md:text-2xl font-black uppercase italic tracking-tighter leading-none">Gisele Paladine</span>
-                    <p class="mt-4 text-slate-400 text-[10px] md:text-sm italic underline underline-offset-8 decoration-emerald-500 uppercase font-bold tracking-[0.2em] leading-none mb-4">CRECI: [PREENCHER]</p>
-                    <p class="text-slate-400 text-xs md:text-sm font-semibold italic">Tradição e modernidade no mercado de São Carlos.</p>
-                </div>
-                <div>
-                    <h4 class="font-bold text-emerald-400 mb-6 uppercase tracking-widest text-[10px] italic underline underline-offset-8">Endereço SC</h4>
-                    <p class="text-slate-400 text-[11px] md:text-sm leading-relaxed uppercase font-bold italic">Rua Professor Rui Vianna Braga, 477 A<br>São Carlos - SP</p>
-                </div>
-                <div>
-                    <h4 class="font-bold text-emerald-400 mb-6 uppercase tracking-widest text-[10px] italic underline underline-offset-8">Atendimento</h4>
-                    <p class="text-xl md:text-2xl font-bold mb-2">(16) 99776-2508</p>
-                    <p class="text-slate-500 text-[9px] uppercase tracking-widest font-bold italic leading-none">Compra e Venda • Sem Aluguel</p>
-                </div>
-            </div>
-            <p class="text-center text-slate-600 text-[9px] md:text-[10px] tracking-[0.3em] uppercase italic font-bold">© 2026 Gisele Paladine Negócios Imobiliários.</p>
+            <p class="text-center text-slate-600 text-[9px] uppercase italic font-bold">© 2026 Gisele Paladine Negócios Imobiliários.</p>
         </div>
     </footer>
 
-    <button onclick="toggleChat()" aria-label="WhatsApp" class="fixed bottom-6 right-6 z-[200] bg-emerald-500 text-white w-14 h-14 md:w-20 md:h-20 rounded-full flex items-center justify-center text-2xl md:text-4xl shadow-2xl transition hover:scale-110 animate-bounce">
-        <i class="fab fa-whatsapp"></i>
-    </button>
+    <button onclick="toggleChat()" class="fixed bottom-6 right-6 z-[200] bg-emerald-500 text-white w-14 h-14 md:w-20 md:h-20 rounded-full flex items-center justify-center text-2xl md:text-4xl shadow-2xl transition hover:scale-110 animate-bounce"><i class="fab fa-whatsapp"></i></button>
 
     <div id="chat-window" class="fixed bottom-24 right-4 md:right-6 z-[250] w-[280px] md:w-80 bg-white rounded-3xl shadow-2xl border border-slate-200 overflow-hidden transform translate-y-20 opacity-0 pointer-events-none transition-all duration-300">
-        <div class="bg-navy p-4 text-white flex items-center gap-3">
-            <div class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-white/20 flex items-center justify-center font-bold text-xs text-center">GP</div>
-            <div>
-                <p class="text-xs md:text-sm font-bold leading-none">Gisele Paladine</p>
-                <p class="text-[8px] md:text-[9px] text-emerald-400 font-bold uppercase tracking-widest mt-1 italic">Assistente Virtual</p>
-            </div>
-            <button onclick="toggleChat()" class="ml-auto text-2xl" aria-label="Fechar">&times;</button>
-        </div>
+        <div class="bg-navy p-4 text-white flex items-center gap-3"><div class="w-8 rounded-full bg-white/20 flex items-center justify-center font-bold text-xs p-2">GP</div><div><p class="text-xs md:text-sm font-bold leading-none text-white">Gisele Paladine</p><p class="text-[8px] text-emerald-400 font-bold uppercase mt-1 italic text-white">Online</p></div><button onclick="toggleChat()" class="ml-auto text-2xl text-white">&times;</button></div>
         <div id="chat-content" class="p-4 bg-slate-50 min-h-[220px] flex flex-col justify-center">
-            
-            <div id="step-1" class="space-y-3">
-                <p class="text-[11px] bg-white p-3 rounded-2xl shadow-sm text-slate-600 mb-4 font-semibold italic border border-slate-100">Como posso ajudar em São Carlos hoje?</p>
-                <button onclick="startBuying()" class="block w-full text-left bg-white border border-slate-200 p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">🏠 Quero comprar</button>
-                <button onclick="startSelling()" class="block w-full text-left bg-white border border-slate-200 p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">🤝 Quero vender</button>
-            </div>
-
-            <div id="step-buy-2" class="hidden space-y-3 text-left">
-                <p class="text-[11px] bg-white p-3 rounded-2xl shadow-sm text-slate-600 mb-4 font-semibold italic border border-slate-100">Qual a faixa de investimento desejada?</p>
-                <button onclick="nextBuyStep('Até 500k')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">Até R$ 500 mil</button>
-                <button onclick="nextBuyStep('500k a 1M')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">R$ 500k a 1 Milhão</button>
-                <button onclick="nextBuyStep('Acima de 1M')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">Acima de R$ 1 Milhão</button>
-            </div>
-
-            <div id="step-buy-3" class="hidden space-y-3 text-left text-navy">
-                <p class="text-[11px] bg-white p-3 rounded-2xl shadow-sm text-slate-600 mb-4 font-semibold italic border border-slate-100 uppercase tracking-tighter text-center">Pretende financiar?</p>
-                <button onclick="finishBuying('À vista')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">💰 À vista</button>
-                <button onclick="finishBuying('Financiamento')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">🏦 Financiamento</button>
-            </div>
-
-            <div id="step-sell-2" class="hidden space-y-3 text-left">
-                <p class="text-[11px] bg-white p-3 rounded-2xl shadow-sm text-slate-600 mb-4 font-semibold italic border border-slate-100">Que tipo de imóvel quer vender?</p>
-                <button onclick="nextSellStep('Casa')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">🏡 Casa</button>
-                <button onclick="nextSellStep('Apartamento')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">🏢 Apartamento</button>
-                <button onclick="nextSellStep('Terreno')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">🌳 Terreno</button>
-            </div>
-
-            <div id="step-sell-3" class="hidden space-y-3 text-left">
-                <p class="text-[11px] bg-white p-3 rounded-2xl shadow-sm text-slate-600 mb-4 font-semibold italic border border-slate-100">Em qual região de São Carlos?</p>
-                <button onclick="finishSelling('Região Central')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">📍 Centro / Vila Prado</button>
-                <button onclick="finishSelling('Região dos Damhas')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">📍 Região Damha/Faber</button>
-                <button onclick="finishSelling('Outros Bairros')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase tracking-widest italic">📍 Outros Bairros</button>
-            </div>
-
+            <div id="step-1" class="space-y-3"><p class="text-[11px] bg-white p-3 rounded-2xl shadow-sm text-slate-600 mb-4 font-semibold italic border text-navy">Como posso ajudar em São Carlos hoje?</p><button onclick="startBuying()" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase italic">🏠 Quero comprar</button><button onclick="startSelling()" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy hover:border-emerald-500 transition shadow-sm uppercase italic">🤝 Quero vender</button></div>
+            <div id="step-buy-2" class="hidden space-y-3"><p class="text-[11px] bg-white p-3 rounded-2xl shadow-sm text-slate-600 mb-4 font-semibold italic border text-navy">Faixa de investimento?</p><button onclick="nextBuyStep('Até 500k')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy uppercase italic">Até 500 mil</button><button onclick="nextBuyStep('Acima de 1M')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy uppercase italic">Acima de 1 Milhão</button></div>
+            <div id="step-buy-3" class="hidden space-y-3"><p class="text-[11px] bg-white p-3 rounded-2xl shadow-sm text-slate-600 mb-4 font-semibold italic border text-navy">Forma de pagamento?</p><button onclick="finishBuying('À vista')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy uppercase italic">💰 À vista</button><button onclick="finishBuying('Financiamento')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy uppercase italic">🏦 Financiamento</button></div>
+            <div id="step-sell-2" class="hidden space-y-3 text-navy"><p class="text-[11px] bg-white p-3 rounded-2xl shadow-sm text-slate-600 mb-4 font-semibold italic border text-navy">Que tipo de imóvel quer vender?</p><button onclick="nextSellStep('Casa')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy uppercase italic">🏡 Casa</button><button onclick="nextSellStep('Apartamento')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy uppercase italic">🏢 Apartamento</button></div>
+            <div id="step-sell-3" class="hidden space-y-3"><p class="text-[11px] bg-white p-3 rounded-2xl shadow-sm text-slate-600 mb-4 font-semibold italic border text-navy">Qual região de São Carlos?</p><button onclick="finishSelling('Damha/Faber')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy uppercase italic">📍 Damha/Faber</button><button onclick="finishSelling('Centro')" class="block w-full text-left bg-white border p-3 rounded-xl text-[10px] font-bold text-navy uppercase italic">📍 Região Central</button></div>
         </div>
     </div>
 
     <script>
-        const btn = document.getElementById('mobile-btn');
-        const menu = document.getElementById('mobile-menu');
-        const close = document.getElementById('close-btn');
-        const chatWindow = document.getElementById('chat-window');
-        
-        let leadData = { interesse: "", info1: "", info2: "" };
-
-        // Menu Mobile
-        btn.onclick = () => menu.classList.remove('translate-x-full');
-        close.onclick = () => menu.classList.add('translate-x-full');
-        function closeMenu() { menu.classList.add('translate-x-full'); }
-
-        // Chatbot Toggle
-        function toggleChat() {
-            if (chatWindow.classList.contains('opacity-0')) {
-                chatWindow.classList.remove('opacity-0', 'translate-y-20', 'pointer-events-none');
-            } else {
-                chatWindow.classList.add('opacity-0', 'translate-y-20', 'pointer-events-none');
-                resetChat();
-            }
-        }
-
-        // Navegação Chat
-        function hideAllSteps() {
-            const steps = ['step-1', 'step-buy-2', 'step-buy-3', 'step-sell-2', 'step-sell-3'];
-            steps.forEach(id => document.getElementById(id).classList.add('hidden'));
-        }
-
-        function startBuying() {
-            leadData.interesse = "Comprar Imóvel";
-            hideAllSteps();
-            document.getElementById('step-buy-2').classList.remove('hidden');
-        }
-
-        function startSelling() {
-            leadData.interesse = "Vender Imóvel";
-            hideAllSteps();
-            document.getElementById('step-sell-2').classList.remove('hidden');
-        }
-
-        function nextBuyStep(val) {
-            leadData.info1 = val;
-            hideAllSteps();
-            document.getElementById('step-buy-3').classList.remove('hidden');
-        }
-
-        function finishBuying(val) {
-            leadData.info2 = val;
-            sendToWhatsApp(`Olá Gisele! Gostaria de *COMPRAR* um imóvel em São Carlos.%0A💰 *Investimento:* ${leadData.info1}%0A💳 *Pagamento:* ${leadData.info2}`);
-        }
-
-        function nextSellStep(val) {
-            leadData.info1 = val;
-            hideAllSteps();
-            document.getElementById('step-sell-3').classList.remove('hidden');
-        }
-
-        function finishSelling(val) {
-            leadData.info2 = val;
-            sendToWhatsApp(`Olá Gisele! Gostaria de *VENDER* meu imóvel em São Carlos.%0A🏡 *Tipo:* ${leadData.info1}%0A📍 *Região:* ${leadData.info2}`);
-        }
-
-        function sendToWhatsApp(msg) {
-            const phone = "5516997762508";
-            window.open(`https://wa.me/${phone}?text=${msg}`, '_blank');
-            toggleChat();
-        }
-
-        function resetChat() {
-            setTimeout(() => {
-                hideAllSteps();
-                document.getElementById('step-1').classList.remove('hidden');
-            }, 500);
-        }
+        const btn=document.getElementById('mobile-btn'),menu=document.getElementById('mobile-menu'),close=document.getElementById('close-btn'),chatWindow=document.getElementById('chat-window');
+        let leadData={interesse:"",info1:"",info2:""};
+        btn.onclick=()=>menu.classList.remove('translate-x-full');
+        close.onclick=()=>menu.classList.add('translate-x-full');
+        function closeMenu(){menu.classList.add('translate-x-full')}
+        function toggleChat(){if(chatWindow.classList.contains('opacity-0')){chatWindow.classList.remove('opacity-0','translate-y-20','pointer-events-none');resetChat()}else{chatWindow.classList.add('opacity-0','translate-y-20','pointer-events-none')}}
+        function hideSteps(){['step-1','step-buy-2','step-buy-3','step-sell-2','step-sell-3'].forEach(id=>document.getElementById(id).classList.add('hidden'))}
+        function startBuying(){leadData.interesse="Comprar";hideSteps();document.getElementById('step-buy-2').classList.remove('hidden')}
+        function startSelling(){leadData.interesse="Vender";hideSteps();document.getElementById('step-sell-2').classList.remove('hidden')}
+        function nextBuyStep(v){leadData.info1=v;hideSteps();document.getElementById('step-buy-3').classList.remove('hidden')}
+        function nextSellStep(v){leadData.info1=v;hideSteps();document.getElementById('step-sell-3').classList.remove('hidden')}
+        function finishBuying(v){leadData.info2=v;send(`Olá Gisele! Quero *COMPRAR* em São Carlos.%0A💰 *Investimento:* ${leadData.info1}%0A💳 *Pagamento:* ${v}`)}
+        function finishSelling(v){leadData.info2=v;send(`Olá Gisele! Quero *VENDER* em São Carlos.%0A🏡 *Tipo:* ${leadData.info1}%0A📍 *Região:* ${v}`)}
+        function send(m){window.open(`https://wa.me/5516997762508?text=${m}`,'_blank');toggleChat()}
+        function resetChat(){hideSteps();document.getElementById('step-1').classList.remove('hidden')}
     </script>
 </body>
 </html>
